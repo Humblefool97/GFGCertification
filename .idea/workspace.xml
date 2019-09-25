@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36bc0cad-ad80-4fec-832d-f53d0bf740eb" name="Default Changelist" comment="" />
+    <list default="true" id="36bc0cad-ad80-4fec-832d-f53d0bf740eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/DijkstrasAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/JobSequencing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/ActivitySelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/NMeetingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/com/example/dsa/gfg/binarytree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/com/example/dsa/gfg/binarytree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/com/example/dsa/gfg/binarytree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/com/example/dsa/gfg/binarytree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/AdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/AdjList.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,100 +24,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/graph/AdjList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/RateInMaze2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/SwapAtMost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="30" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="method#solution#0;class#SwapAtMost#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/hashing/ArrayEquality.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/math/Factorial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/math/MeanMedian.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="9" selection-start-line="7" selection-start-column="7" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/math/NearestSqrt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/math/Prime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/math/Roots.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="399">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarysearchtree/BST.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/graph/DijkstrasAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+            <state relative-caret-position="1083">
+              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +61,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,13 +102,23 @@
         <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/LevelOrder2.java" />
         <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/Node.java" />
         <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/binarysearchtree/BST.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/heaps/BasicOps.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/heaps/MinIntHeap.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/AcceptPrint.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/BFS.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/JobSequencing.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/ActivitySelection.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/NMeetingRoom.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/AdjList.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dsa/gfg/graph/DijkstrasAlgorithm.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -199,28 +147,29 @@
               <item name="DSA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gfg" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gfg" type="462c0819:PsiDirectoryNode" />
-              <item name="binarysearchtree" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gfg" type="462c0819:PsiDirectoryNode" />
-              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gfg" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,6 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -248,7 +198,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LRTBView">
+  <component name="RunManager" selected="Application.ActivitySelection">
+    <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.dsa.gfg.greedy.problems.ActivitySelection" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.dsa.gfg.greedy.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.dsa.gfg.binarytree.Driver" />
       <module name="DSA" />
@@ -301,26 +264,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.dsa.gfg.stack.RemoveDuplicates" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.dsa.gfg.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActivitySelection" />
         <item itemvalue="Application.LRTBView" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.ParanthesisChecker" />
         <item itemvalue="Application.RemoveDuplicatePairs" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -348,22 +298,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2306867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14592275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5512666" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48371533" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55005056" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48331273" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903865" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903865" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40141556" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32804757" />
@@ -439,6 +388,24 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/ActivitySelection.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/ActivitySelection.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/ActivitySelection.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -477,68 +444,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/bitmagic/ClearBit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/search/CountOccurrence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/bitmagic/RightMostDifferentBit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="9" selection-start-column="8" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/math/SeriesGp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="5" selection-start-line="5" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2656" column="26" selection-start-line="2656" selection-start-column="26" selection-end-line="2656" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/hashing/CountDistinct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="9" selection-start-line="6" selection-start-column="6" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/hashing/RelativeSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/hashing/Intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="9" selection-start-line="7" selection-start-column="7" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/hashing/Union.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -677,16 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/IdenticalTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -732,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/RateInMaze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -746,13 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/RateInMaze2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/heaps/BasicOps.java" />
     <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/SwapAtMost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -813,8 +695,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarysearchtree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="1425">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/heaps/MinIntHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/arrays/ArrayInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/arrays/MajorityWins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/arrays/MaxSecondMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/arrays/ReverseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/arrays/ReverseArrayInGroups.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/arrays/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/RateInMaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/binarytree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/graph/BFS.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/backtracking/RateInMaze2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="11" column="17" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="102" column="65" lean-forward="true" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/JobSequencing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/ActivitySelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/greedy/problems/NMeetingRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#NMeetingRoom#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/graph/AdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dsa/gfg/graph/DijkstrasAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
